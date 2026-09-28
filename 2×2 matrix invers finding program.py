@@ -1,0 +1,20 @@
+#2×2 matrix invers finding program
+print("[A     B]")
+print("[C     D]")
+a=int(input("A:"))
+b=int(input("B:"))
+c=int(input("C:"))
+d=int(input("D:"))
+print("conform your matrix")
+print(f"[{a}     {b}]")
+print(f"[{c}     {d}]")
+z=input("For Finding determinant enter b:")
+if z=="b":
+    u=(a*d)-(b*c)
+    print(u)
+else:
+    print("Somthing Went wrong")
+input("click enter to find invers")
+print("Your matrix invers is")
+print(f"[{d}/{u}    {b}/{-u}]")
+print(f"[{c}/{-u}    {a}/{u}]")
